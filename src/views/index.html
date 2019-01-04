@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="description" content="我的主页" />
+  <meta name="keywords" content="我的主页" />
+  <title>我的页面</title>
+  <script>
+    const userAgent = window.navigator.userAgent.toLowerCase();
+    const oHtml = window.document.documentElement;
+    if (/mobi/i.test(userAgent)) {
+      const width = oHtml.clientWidth;
+
+      oHtml.style.fontSize = 12 * (width / 320) + 'px';
+    } else {
+      oHtml.style.fontSize = '10px';
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>我的空间</h1>
+    <div class="time_container">
+      <span class="time_tip">现在时间:</span>
+      <span id="js_time_wrapper" class="time_wrapper"></span>
+    </div>
+  </header>
+  <div class="main clear">
+    <div class="container">
+      新华社贵阳1月3日电（记者李凡）横跨我国云贵高原乌蒙山脉、贵州海拔最高高速公路——六（盘水）威（宁）高速公路3日正式通车，由此打通了一条由贵州西北角通往云南的快捷通道，也将在云贵川三省间连通一条贸易经济合作的便利通道。
+
+　　据了解，六威高速公路全线总长190公里，主线起自贵州省六盘水市老鹰山镇，止于威宁县中水镇，与云南省昭通市相连，是都（匀）香（格里拉）高速公路的重要路段。六威高速全线共有桥梁157座、隧道32座，桥隧比为44.8%，其中特大桥4座，特长隧道5座，总投资约253亿元。
+
+（经济）（3）贵州六威高速建成通车
+
+　　1月3日无人机拍摄的六威高速公路。 新华社记者 陶亮 摄
+
+　　六威高速通车以后，从六盘水到威宁车程将从原来2个多小时缩短为1小时，从六盘水到昭通的车程将由原来5个多小时缩短为2小时左右。
+
+　　贵州高速公路集团有限公司六威项目管理四处处长卢云贵介绍，六威高速公路全线海拔在1700米至2260米左右，修建期间需要克服断层破碎带、岩溶发育区等多类地质难题和恶劣天气。
+
+　　“控制性工程之一的李子沟特大桥，是贵州最高海拔T构桥，海拔在2200多米，每年冬季11月至次年2月是凝冻天气的高发期。”卢云贵说，施工建设团队在桥上建立了道路凝冰预警和自动喷洒除冰系统，在极端天气情况下，系统可根据路面结冰、积雪等情况进行除冰操作；同时安装雾区路段线形诱导标志及雾灯设置系统，大大提升了路面安全和运行效率。
+    </div>
+    <div class="circle_container">
+      <div class="circle"></div>
+    </div>
+  </div>
+  <footer>
+    <div class="author">
+      power by alex
+    </div>
+  </footer>
+</body>
+</html>
