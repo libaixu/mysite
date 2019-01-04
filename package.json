@@ -1,0 +1,47 @@
+{
+  "name": "mysite",
+  "version": "0.0.1",
+  "description": "mysite",
+  "main": "src/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config build/webpack.dev.js --progress --colors",
+    "build": "webpack --config build/webpack.build.js --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/libaixu/mysite.git"
+  },
+  "author": "alex",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/libaixu/mysite/issues"
+  },
+  "homepage": "https://github.com/libaixu/mysite#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.4.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.3",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^1.0.0",
+    "css-loader": "^2.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss": "^7.0.7",
+    "postcss-loader": "^3.0.0",
+    "precss": "^4.0.0",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.0",
+    "webpack-dev-server": "^3.1.14",
+    "webpack-merge": "^4.1.5"
+  },
+  "browserslist": [
+    "> 2%",
+    "last 2 versions",
+    "not ie <=8"
+  ]
+}
